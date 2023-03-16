@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Poiret+One&family=Raleway:wght@200&display=swap");
+html {
+  scroll-padding-top: 95px;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding-top: 60px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 2vw;
+  padding: 20px;
+}
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+ul {
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+  overflow: hidden;
+}
+nav {
+  background-color: lightgray;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  font-family: "Aboreto", cursive;
+}
+
+a:hover {
+  background-color: #690000;
+  color: white;
+}
+
+header {
+  text-align: center;
+  font-size: 2vw;
+  color: #690000;
+  font-family: "Aboreto", cursive;
+}
+hr {
+  width: 50vw;
+}
+
+.plot {
+  text-align: left;
+  font-size: 2vw;
+  border: 2px solid black;
+  margin-top: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+h1 {
+  margin-bottom: 0;
+}
+h2 {
+  text-align: left;
+  font-size: 2vw;
+  margin: 0;
+  font-family: "Poiret One", cursive;
+}
+button {
+  border-radius: 10px;
+  background-color: #f5c518;
+}
+
+#imdb:hover {
+  background-color: transparent;
+  color: black;
+}
+#imdb {
+  padding: 0;
+}
+
+.chr {
+  color: #850000;
+  font-family: "Aboreto", cursive;
+  padding: 10px;
+  font-weight: lighter;
+}
+.info {
+  font-size: 2vw;
+}
+
+.bord {
+  border: 2px solid black;
+  width: 50%;
+  margin: 10px;
+}
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.over {
+  background-color: lightgray;
+  margin: 0;
+  padding: 15px;
+  border-bottom: 2px solid black;
+}
+.para {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.5vw;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
