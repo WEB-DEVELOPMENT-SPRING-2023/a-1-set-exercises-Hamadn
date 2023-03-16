@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+}
+body {
+    background-image: url("pexels-dmitry-demidov-3784221.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    display: grid;
+    place-content: center;
+
+}
+header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 5px solid orangered;
+    border-radius: 5px;
+}
+h1 {
+    font-family: 'Nabla', cursive;
+}
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-content: center;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+}
+button {
+    width: 500px;
+    height: 200px;
+    border: 5px solid orangered;
+    border-radius: 10px;
+    font-family: 'Rampart One', cursive;
+    background-color: black;
+    font-size: 35px;
+    color: white;
+}
+
+button:hover {
+    background-color: orangered;
+    cursor: pointer;
+    font-family: 'Nabla', cursive;
+    border: 5px double yellow;
+    font-size: 38px;
+
+}
