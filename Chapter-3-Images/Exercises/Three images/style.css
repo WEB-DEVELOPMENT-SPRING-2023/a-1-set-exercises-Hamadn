@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 900px;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+p {
+    text-align: center;
+}
+
+img.item1 {
+   filter: drop-shadow(20px 20px 20px black) saturate(250%) hue-rotate(90deg) brightness(110%); 
+   border: 2px solid black;
+}
+img.item2 {
+    filter: hue-rotate(180deg) drop-shadow(10px 10px 10px green) saturate(200%) drop-shadow(5px 5px 5px red) brightness(110%);
+    border: 2px solid black;
+}
+img.item3 {
+    filter: hue-rotate(270deg) drop-shadow(10px 10px 10px blue) saturate(300%) drop-shadow(10px 10px 10px green) brightness(110%);
+    border: 2px solid black;
+}
