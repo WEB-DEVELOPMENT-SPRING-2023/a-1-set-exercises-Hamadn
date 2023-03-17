@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/34cc1d3744.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <form onsubmit="return calc()">
+            <label for="litre">Cost of petrol per litre:</label><br>
+            <input type="text" id="litre" name="litre" value="1.72"> <i class="fa-solid fa-money-bill-1-wave grn"></i><br>
+
+            <label for="purchased">Litres Purchased:</label><br>
+            <input type="text" id="purchased" name="purchased" value="0"> <i class="fa-solid fa-gas-pump"></i><br>
+
+            <p id="cost"></p>
+
+            <button type="submit" id="calculate"><i class="fa-solid fa-coins"></i> Calculate</button>
+        </form>
+        <script src="index.js"></script>
+    </body>
+</html>
