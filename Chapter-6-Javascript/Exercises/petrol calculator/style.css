@@ -1,58 +1,103 @@
+/*Importing the font "Cairo Play" to use it in the webpage*/
 @import url('https://fonts.googleapis.com/css2?family=Cairo+Play&display=swap');
+/*Targeting the html tag*/
 html {
+    /*Setting the height to 100%*/
     height: 100%;
 }
+/*Targeting the body tag*/
 body {
+    /*Setting the background size to cover*/
     background-size: cover;
+    /*Setting the background to an image*/
     background-image: url("petrol.jpeg");
+    /*Setting the background blend mode to overlay so that the background color overlays on the image*/
     background-blend-mode: overlay;
+    /*Setting the background color to black with opacity of 0.4*/
     background-color: rgba(0, 0, 0, 0.4);
-    transition-timing-function: ease-out;
+    /*Setting the display to grid*/
     display: grid;
+    /*Changing the place content to center so the item is at the center of the grid*/
     place-content: center;
+    /*Setting the height to 100%*/
     height: 100%;
+    /*Changing the font size to 1.3% of the width of view port*/
     font-size: 1.3vw;
 }
+/*Targeting the form tag*/
 form {
+    /*Using css filters to apply drop shadow of 5px and a blur of 5px */
     filter: drop-shadow(5px 5px 5px);
+    /*Setting the border radius to 10px*/
     border-radius: 10px;
+    /*Giving it a padding of 15px from all sides*/
     padding: 15px;
+    /*Setting a border to 2px with style of solid and color of black*/
     border: 2px solid black;
+    /*Setting the  background color to ghostwhite*/
     background-color: ghostwhite;
+    /*Giving it the font family of 'Cairo Play'*/
     font-family: 'Cairo Play', cursive;
+    /*Aligning the text to center*/
     text-align: center;
 }
+/*Targeting the input tag*/
 input {
+    /*Setting the border radius to 5px*/
     border-radius: 5px;
+    /*Setting the height to 20px*/
     height: 20px;
+    /*Setting the width to 20% of the parent element*/
     width: 20%;
+    /*Changing the font size to 30px*/
     font-size: 30px;
+    /*Giving it a padding of 15px from all sides*/
     padding: 15px;
+    /*Removing the outline so the effect of border color changing can be seen*/
     outline: none;
+    /*Aligning the text ot center*/
     text-align: center;
 }
-
+/*Targeting the button tag*/
 button {
+    /*Changing the display to block so it takes the whole width of the parent element*/
     display: block;
+    /*Setting the margin right and margin left to auto to center the button*/
     margin-right: auto;
     margin-left: auto;
+    /*Cahnging the font size to 1.2% of the width of view port*/
     font-size: 1.2vw;
+    /*Setting the background color to the hex value of #990011ff*/
     background-color: #990011FF;
+    /*Giving it the font family of 'Cairo Play'*/
     font-family: 'Cairo Play', cursive;
+    /*Changing the color of the text to white*/
     color: white;
+    /*Setting the border radius to 10px*/
     border-radius: 10px;
+    /*Changin the cursor to pointer*/
     cursor: pointer;
+    /*Giving it a padding of 10px from all sides*/
     padding: 10px;
 }
+/*Targeting the input tag whenit is focused*/
 input:focus {
+    /*Using css filter to give it a drop shadow of 2px with a 2px blur*/
     filter: drop-shadow(2px 2px 2px);
+    /*Setting the border to 2px with style of solid and the color of crimson*/
     border: 2px solid crimson;
 }
+/*Targeting the icon tag nested in the button tag*/
 button i {
+    /*Changing the color of the icon to gold*/
     color: gold;
+    /*Using css filtewr to apply a drop shadow of 3px and a blur of 3px with the color of gold*/
     filter: drop-shadow(3px 3px 3px gold);
+    /*Changing the font size to 30px*/
     font-size: 30px;
 }
+/*Making a class named "grn"*/
 .grn {
+    /*Changing the color to green*/
     color: green;
 }

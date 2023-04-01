@@ -1,25 +1,35 @@
+<!--Boilerplate for html to let the browser know this is an html file-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Linking the css file for styling of the webpage-->
         <link href="style.css" rel="stylesheet">
+        <!--Linking the font-awesome css file for the icons in the webpage-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Linking the javascript file for the font awesome for the icons to function-->
         <script src="https://kit.fontawesome.com/34cc1d3744.js" crossorigin="anonymous"></script>
+        <!--Title tag to display the title of the webpage in the browser tab-->
+        <title>Petrol Calculator</title>
     </head>
     <body>
+        <!--Form tag with onsubmit to execute a certain function when submitted-->
         <form onsubmit="return calc()">
+            <!--label tag for labelling the input field-->
             <label for="litre">Cost of petrol per litre:</label><br>
+            <!--input tag with type of text, an id of "litre" and a default value of "1.72" and an icon tag after it-->
             <input type="text" id="litre" name="litre" value="1.72"> <i class="fa-solid fa-money-bill-1-wave grn"></i><br>
-
+            <!--label tag for labelling the input field-->
             <label for="purchased">Litres Purchased:</label><br>
+            <!--input tag with type of text, an id of "purchased", a name of "purchased" and a default value of "0" and an icon tag after it-->
             <input type="text" id="purchased" name="purchased" value="0"> <i class="fa-solid fa-gas-pump"></i><br>
-
+            <!--p tag with an id of "cost" to display a paragraph on the webpage-->
             <p id="cost"></p>
-
+            <!--button tag with type of submit, an id of "calculate" and an icon tag nested in it-->
             <button type="submit" id="calculate"><i class="fa-solid fa-coins"></i> Calculate</button>
         </form>
+        <!--Linking the javascript file for the function of the webpage-->
         <script src="index.js"></script>
     </body>
 </html>
