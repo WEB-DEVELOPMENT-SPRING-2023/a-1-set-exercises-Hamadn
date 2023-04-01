@@ -1,16 +1,22 @@
+<!--Boilerplate for html files to let the browser know that it is an html file-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <!--Title tag to give the title to the webpage which is displayed in the browser tab-->
+        <title>Alan Partridge's Soundboard</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Linking css file for the styling of the webpage-->
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
+        <!--div tag to represent a division in the webpage-->
         <div>
+            <!--header tag with h1 nested in it to display the heading of the webpage-->
         <header>
             <h1>Alan Partridge's Soundboard</h1>
         </header>
+        <!--button tag to display a button which executes certain functions when they are clicked-->
         <button onclick="sound1.play()">1<br>Dan</button>
         <button onclick="sound2.play()">2<br>Ah-Ha</button>
         <button onclick="sound3.play()">3<br>Email Of The Evening</button>
@@ -20,6 +26,7 @@
         <button onclick="sound7.play()">7<br>Bang Out Of Order</button>
         <button onclick="sound8.play()">8<br>I'm confused</button>
         </div>
+        <!--Linking the javascript file for the function of the website-->
         <script src="index.js"></script>
     </body>
 </html>

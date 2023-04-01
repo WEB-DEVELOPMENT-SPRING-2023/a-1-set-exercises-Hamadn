@@ -1,3 +1,4 @@
+/*Making an audio object for each audio and giving it src to the path where audio is stored*/
 var sound1 = new Audio();
 sound1.src = "../Audio Sampler/Audio/dan.mp3";
 var sound2 = new Audio();
