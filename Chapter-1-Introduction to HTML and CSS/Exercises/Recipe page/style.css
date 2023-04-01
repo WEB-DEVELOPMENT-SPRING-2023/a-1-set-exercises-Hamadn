@@ -1,67 +1,109 @@
+/*Targeting the body tag*/
 body {
+    /*Changing the padding to 0*/
     padding: 0;
+    /*Changing the margin to 0*/
     margin: 0;
         
 }
 
-
+/*Targeting the div tag*/
 div {
+    /*Giving the div tag a border of 2px with style of solid*/
     border: 2px solid;
+    /*Changing the box sizing to border box*/
     box-sizing: border-box;
+    /*Changing the height to 20% of the page*/
     height: 20%;
+    /*giving it a padding of 10px from all sides*/
     padding: 10px;
+    /*Giving it a margin of 10px from all sides*/
     margin: 10px;
 }
-
+/*Targeting the img tag*/
 img {
+    /*Giving it a width of 100% of the page*/
     width: 100%;
+    /*Giving it a height of 900px*/
     height: 900px;
+    /*Giving it a padding of 15px*/
     padding: 15px;
+    /*Setting the object-fit property to cover so that the image deos not look stretched*/
     object-fit: cover;
 }
-
+/*Making a class with name of "ing"*/
 .ing {
+    /*Setting the width to fit-content so that it increases with the amount of content*/
     width: fit-content; 
+    /*Setting the background-color to lightgrey*/
     background-color: lightgrey;
+    /*Giving it padding of 10px*/
     padding: 10px;
+    /*Incresing the line-height by 2.7 units*/
     line-height: 2.7;
+    /*Setting the height to fit-content so it increases with the content*/
     height: fit-content;
 }
+/*Making a class with the name "met"*/
 .met {
+    /*Setting the float property to right to make it move to the right side*/
     float: right;
+    /*Setting the width to 75% of the page*/
     width: 75%;
+    /*Setting the border to 0*/
     border: 0;
+    /*Changing the space between lines by 1.8 units*/
     line-height: 1.8;
+    /*Setting the height to fit-content so it increases with the amount of content*/
     height: fit-content;
 }
 
-
+/*Making a class with the name of "side"*/
 .side {
+    /*Setting the display to inline-flex so the items inside it are organized in a default direction of row in flex*/
     display: inline-flex;
+    /*Changing the border to none*/
     border: none;
+    /*Setting the padding to 0*/
     padding: 0;
 }
-
+/*Targeting the hr tag*/
 hr {
+    /*Setting its width to 100% of the page*/
     width: 100%;
+    /*Setting the height of the line to 2px*/
     height: 2px;
+    /*Giving it a background-color of black*/
     background-color: black;
 }
+/*Targeting the h2 tag*/
 h2 {
+    /*giving it a padding of 10px*/
     padding: 10px;
+    /*Changing the color of the text to darkgreen*/
     color: darkgreen;
 }
+/*Targeting the h1 tag*/
 h1 {
+    /*Changing the color of the text to darkgreen*/
     color: darkgreen;
+    /*Aligning the text to the center*/
     text-align: center;
 }
+/*Making a class with the name of "div1"*/
 .div1 {
+    /*Removing the border*/
     border: none;
 }
+/*Targeting the ol tag*/
 ol {
+    /*Setting the font-weight to normal*/
     font-weight: normal;
+    /*Changing the color of the text to black*/
     color: black;
 }
+/*Tagrgeting the p tag*/
 p {
+    /*Aligning the text to center*/
     text-align: center;
 }
