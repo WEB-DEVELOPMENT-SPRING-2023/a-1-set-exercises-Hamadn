@@ -1,0 +1,263 @@
+/*html page styles*/
+html {
+    /*Setting the background to white*/
+    background-color: white;
+}
+/* Body Styles */
+body {
+    /*Changing the font family to 'Arial', sans-serif*/
+    font-family: Arial, sans-serif;
+    /*Setting the background color to white*/
+    background-color: white;
+    /*Giving it a margin top and bottom of 2% and margin right and left of 30% of the parent element*/
+    margin: 2% 30%;
+    /*Removing the padding*/
+    padding: 0;
+    /*Ginving it a border of 2px with a solid style and a color of black*/
+    border: 2px solid black;
+    /*Setting the display to grid*/
+    display: grid;
+    /*Setting the grid template columns to 1fr repeated three times which means three columns*/
+    grid-template-columns: repeat(1fr, 3);
+}
+/*aside styles*/
+aside {
+    /*Giving it a padding of 10px from all sides*/
+    padding: 10px;
+    /*Giving it a margin of 10px from all sides*/
+    margin: 10px;
+}
+/*input styles*/
+input[type='date'],[type='week'] {
+    /*Setting the width to 75% of the parent element*/
+    width: 75%;
+    /*Setting the height to 25px*/
+    height: 25px;
+    /*Giving it a padding of 5px from all sides*/
+    padding: 5px;
+}
+
+/* Header Styles */
+header {
+    /*Setting the background color to whitesmoke*/
+    background-color: whitesmoke;
+    /*Setting the color of the text to black*/
+    color: black;
+    /*Setting the starting point of the header from the 1st column*/
+    grid-column-start: 1;
+    /*Setting the ending point of the header to 3rd column*/
+    grid-column-end: 3;
+    /*Aligning the text to center*/
+    text-align: center;
+    /*Changing the font size to 1.4 percent of the width of view port*/
+    font-size: 1.4vw;
+}
+/*h1 nested in the header style*/
+header h1 {
+    /*Setting the top and bottom margin to 10px and removing right and left margin*/
+    margin: 10px 0;
+}
+
+/* Navigation Styles */
+nav {
+    /*Setting the background color to the hex value of #333*/
+    background-color: #333;
+    /*Changing the text color to the hex value of #ffffff(white)*/
+    color: #ffffff;
+    /*Giving it a padding of 10px from all sides*/
+    padding: 10px;
+    /*Setting the starting point of the nav from 1st column*/
+    grid-column-start: 1;
+    /*Setting the ending point of the nav to 3rd column*/
+    grid-column-end: 3;
+}
+/*Unordered list styles*/
+nav ul {
+    /*Removing the listing type*/
+    list-style-type: none;
+    /*Giving it a padding of 5px from top and bottom and removing the left and right padding*/
+    padding: 5px 0px;
+    /*Aligning the text to center*/
+    text-align: center;
+    /*Setting the display to flex*/
+    display: flex;
+    /*Setting the justify-content to space around so that the items have space around them*/
+    justify-content: space-around;
+}
+/*Anchor tag styles*/
+nav a {
+    /*Setting the color of the text to white*/
+    color: white;
+    /*Removing the decoration of underline*/
+    text-decoration: none;
+}
+/*Anchor on hover styles*/
+nav a:hover {
+    /*Changing the background color to the hex value of #111*/
+    background-color: #111;
+}
+
+/* Main Content Styles */
+main {
+    /*Giving it a margin of 20px from all sides*/
+    margin: 20px;
+    /*Giving it a padding of 10px from all sides*/
+    padding: 10px;
+    /*Setting the display to grid*/
+    display: grid;
+    /*Setting the starting point of the main from 1st column*/
+    grid-column-start: 1;
+    /*Setting the ending point of the main to 3rd column*/
+    grid-column-end: 3;
+}
+/*direct h2 tag nested in the main styles*/
+main > h2 {
+    /*Setting the border to 2px with a style of solid and a color of black*/
+    border: 2px solid black;
+    /*Giving it a padding of 15px from all sides*/
+    padding: 15px;
+    /*Setting the starting point of the h2 from 1st column*/
+    grid-column-start: 1;
+    /*Setting the ending point of the h2 to 2nd column*/
+    grid-column-end: 2;
+}
+/*Making a class with the name "border_right"*/
+.border_right {
+    /*Giving it a border right and bottom of 2px with a style of solid and the color black*/
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;;
+    /*Aligning the text to center*/
+    text-align: center;
+    /*Giving it a padding of 10px from all sides*/
+    padding: 10px;
+}
+/*Making a class with the name "border_bottom"*/
+.border_bottom {
+    /*Giving it a border of 2px with the style of solid and the color black*/
+    border-bottom: 2px solid black;
+    /*Giving it a padding of 10px from all sides*/
+    padding: 10px;
+}
+/*Table styles*/
+table {
+    /*Setting the top and bottom margin to 20px and left and right margin to auto to center the table*/
+    margin: 20px auto;
+    /*Changing the font size to 1% of the width of the view port*/
+    font-size: 1vw;
+}
+/* Footer Styles */
+footer {
+    /*Setting the background color to the hex value of #333*/
+    background-color: #333;
+    /*Changing the text color to the hex value of #ffffff(white)*/
+    color: #ffffff;
+    /*Aligning the text to center*/
+    text-align: center;
+    /*Setting the starting point of the footer from 1st column*/
+    grid-column-start: 1;
+    /*Setting the ending point of the footer to 3rd column*/
+    grid-column-end: 3;
+}
+/*Making an id with the name "first"*/
+#first {
+    /*Setting the starting point from 1st column*/
+    grid-column-start: 1;
+    /*Setting the ending point to 2nd column*/
+    grid-column-end: 2;
+    /*Setting the spacing between lines to 2 unit*/
+    line-height: 2;
+    /*Removing the margin from all sides*/
+    margin: 0;
+    /*Giving it a border of 2px with a style of solid and a color of orange*/
+    border: 2px solid orange;
+    /*Giving it a border radius of 5px*/
+    border-radius: 5px;
+}
+/*Making an id with the name "second"*/
+#second {
+    /*Setting the starting point from 1st row*/
+    grid-row-start: 1;
+    /*Setting the ending point to 2nd row*/
+    grid-row-end: 2;
+    /*Setting the starting point from 2nd column*/
+    grid-column-start: 2;
+    /*Setting the ending point to 3rd column*/
+    grid-column-end: 3;
+    /*Giving it a margin left of 10px*/
+    margin-left: 10px;
+    /*Giving it a border radius of 5px*/
+    border-radius: 5px;
+}
+/*Making an id with the name "third"*/
+#third {
+    /*Setting the starting point from 2nd column*/
+    grid-column-start: 2;
+    /*Setting the ending point to 3rd column*/
+    grid-column-end: 3;
+    /*Setting the ending point to 2nd row*/
+    grid-row-start: 2;
+    /*Setting the ending point to 4th row*/
+    grid-row-end: 4;
+    /*Removing the top and right margin*/
+    margin-top: 0;
+    margin-right: 0;
+    /*Giving it a border of 2px with a style of solid and a color of lightblue*/
+    border: 2px solid lightblue;
+    /*Giving it a border radius of 5px*/
+    border-radius: 5px;
+}
+/*Making an id with the name "fourth"*/
+#fourth {
+    /*Setting the starting point from 1st column*/
+    grid-column-start: 1;
+    /*Setting the ending point to 2nd column*/
+    grid-column-end: 2;
+    /*Setting the spacing between lines to 2 unit*/
+    line-height: 2;
+    /*Removing the top and right margin*/
+    margin-right: 0;
+    margin-left: 0;
+    /*Giving it a border of 2px with a style of solid and a color of gray*/
+    border: 2px solid gray;
+    /*Giving it a border radius of 5px*/
+    border-radius: 5px;
+}
+/*Making an id with the name "fifth"*/
+#fifth {
+    /*Setting the starting point from 1st column*/
+    grid-column-start: 1;
+    /*Setting the ending point to 2nd column*/
+    grid-column-end: 2;
+    /*Setting the spacing between lines to 2 unit*/
+    line-height: 2;
+    /*Removing the top and right margin*/
+    margin-right: 0;
+    margin-left: 0;
+    /*Giving it a border of 2px with a style of solid and a color of yellow*/
+    border: 2px solid yellow;
+    /*Giving it a border radius of 5px*/
+    border-radius: 5px;
+}
+/*Making an id with the name "sixth"*/
+#sixth {
+    /*Giving it a border of 2px with a style of solid and a color of lightgreen*/
+    border: 2px solid lightgreen;
+    /*Removing right margin*/
+    margin-right: 0;
+    /*Setting the spacing between lines to 2 unit*/
+    line-height: 2;
+    /*Giving it a border radius of 5px*/
+    border-radius: 5px;
+}
+/*Making a class with the name "center"*/
+.center {
+    /*Aligning the text to center*/
+    text-align: center;
+    /*Giving it a border of 2px with a style of solid and a color of black*/
+    border: 2px solid black;
+    /*Removing the margin from all sides*/
+    margin: 0;
+    /*Giving it a border radius of 5px*/
+    border-radius: 5px;
+
+}
