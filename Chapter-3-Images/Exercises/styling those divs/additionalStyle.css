@@ -1,17 +1,30 @@
+/*Targeting the element with id of "A"*/
 #A {
+    /*Changing the border to 5px with style solid and color to darkviolet*/
     border: 5px solid darkviolet;
+    /*Giving it a box shadow of 10px from two sides and 10px blur with the color red*/
     box-shadow: 10px 10px 10px red;
 }
+/*Targeting the element with id of "B"*/
 #B {
+    /*Changing the border to 5px with style solid and color to darkviolet*/
     border: 5px solid lime;
+    /*Giving it a box shadow of 10px from two sides and 10px blur with the color black inside the div*/
     box-shadow: inset 10px 10px 10px black;
 }
+/*Targeting the element with id of "C"*/
 #C {
+    /*Changing the border to 5px with style solid and color to orange*/
     border: 5px solid orange;
+    /*Giving it a border radius of 20px*/
     border-radius: 20px;
-    box-shadow: 0 0px 0px 10px blue, 0 0 0 20px red, 0 0 0 30px green; 
+    /*Giving it three box shadow of 10px,20px and 30px from all sides with color blue,red and green*/
+    box-shadow: 0 0 0 10px blue, 0 0 0 20px red, 0 0 0 30px green; 
 }
+/*Targeting the element with id of "D"*/
 #D {
+    /*Changing the border to 5px with style solid and color to brown*/
     border: 5px solid brown;
+    /*Giving it a text shadow of 4px from two sides and blur of 1px with color black*/
     text-shadow: 4px 4px 1px black;
 }

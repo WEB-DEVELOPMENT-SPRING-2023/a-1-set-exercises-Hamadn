@@ -1,16 +1,27 @@
+/*Targeting the div tags*/
 div {
+  /*Changing the display to inline block*/
   display: inline-block;
+  /*Giving it the font family of sans-serif*/
   font-family: sans-serif;
+  /*Setting the font size to 20px*/
   font-size: 20px;
+  /*Setting the margin fromall sides to 25px*/
   margin: 25px;
+  /*Giving it a border of 4px with style solid and color black*/
   border: 4px solid black;
+  /*Changing the spacing between the lines by 100px*/
   line-height: 100px;
+  /*Aligning the text to center*/
   text-align: center;
+  /*Changing the width and height to 200px*/
   width: 200px;
   height: 200px;
 }
-
+/*Targeting the body tag*/
 body {
+  /*Setting the top and bottom margin to 100px and left and right margin to auto*/
   margin: 100px auto;
+  /*Setting the width to max-content*/
   width: max-content;
 }
