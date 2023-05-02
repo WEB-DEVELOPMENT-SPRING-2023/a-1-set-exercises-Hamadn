@@ -1,0 +1,14 @@
+/*TArgeting the html tag*/
+html {
+    /*Setting the height to 100%*/
+    height: 100%;
+}
+/*Targeting the body tag*/
+body {
+    /*Setting th height to 100%*/
+    height: 100%;
+    /*Setting the display to grid*/
+    display: grid;
+    /*Changing the property of place content to center so that the items are placed in the center of the grid*/
+    place-content: center;
+}

@@ -1,0 +1,48 @@
+/*Targeting the body tag*/
+body {
+    /*Setting the margin to 0*/
+    margin: 0;
+    /*Setting the padding of to 0*/
+    padding: 0;
+}
+/*Targeting the img tag*/
+img {
+    /*Setting the width of the image to 900px*/
+    width: 900px;
+    /*Changing the height to auto so it sets the height according to the width amintaining iots aspect ratio*/
+    height: auto;
+    /*Changing the display property to block so it take the whole width*/
+    display: block;
+    /*Setting the margin-right property and margin-left property to auto so the image moves to the center*/
+    margin-right: auto;
+    margin-left: auto;
+    /*Setting the margin-top property to 10px and margin-bottom property to 35px*/
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+/*Targetingt the p tag*/
+p {
+    /*Aligning the text to center*/
+    text-align: center;
+}
+/*Targeting the image with the class of "item1"*/
+img.item1 {
+    /*Using css filter to change the various properties of the image*/
+   filter: drop-shadow(20px 20px 20px black) saturate(250%) hue-rotate(90deg) brightness(110%); 
+   /*Giving it a border of 2px with style solid and color of black*/
+   border: 2px solid black;
+}
+/*Targeting the image with the class of "item2"*/
+img.item2 {
+    /*Using css filter to change the various properties of the image*/
+    filter: hue-rotate(180deg) drop-shadow(10px 10px 10px green) saturate(200%) drop-shadow(5px 5px 5px red) brightness(110%);
+   /*Giving it a border of 2px with style solid and color of black*/
+    border: 2px solid black;
+}
+/*Targeting the image with the class of "item3"*/
+img.item3 {
+    /*Using css filter to change the various properties of the image*/
+    filter: hue-rotate(270deg) drop-shadow(10px 10px 10px blue) saturate(300%) drop-shadow(10px 10px 10px green) brightness(110%);
+   /*Giving it a border of 2px with style solid and color of black*/
+    border: 2px solid black;
+}

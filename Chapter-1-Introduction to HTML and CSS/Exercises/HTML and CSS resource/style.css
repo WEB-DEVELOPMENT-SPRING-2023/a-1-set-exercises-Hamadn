@@ -1,0 +1,77 @@
+/*importing the font 'Karla' from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+/*Body styles*/
+body {
+    /*Giving it a right and left padding of 20% of parent element and removing top and bottom padding*/
+    padding: 0 20%;
+    /*Removing margin from all sides*/
+    margin: 0;
+    /*Giving it the font family of 'Karla'*/
+    font-family: 'Karla', sans-serif;
+    /*Setting the background color to whitesmoke*/
+    background-color: whitesmoke;
+}
+/*Pre styles*/
+pre {
+    /*Setting the background color to black with the opacity of 0.8*/
+    background-color: rgba(0, 0, 0, 0.8);
+    /*Giving it a border radius of 10px*/
+    border-radius: 10px;
+    /*Setting the color of the text to white*/
+    color: white;
+    /*Setting the font size to 0.65% of the the width of view port*/
+    font-size: 0.65vw;
+    /*Giving it a border of 5px with a style of solid and a color of aqua*/
+    border: 5px solid aqua;
+}
+/*h2 and h3 styles*/
+h2, h3 {
+    /*Setting the font size to 1% of the width of view port*/
+    font-size: 1vw;
+    /*Giving it the font family of 'Karla'*/
+    font-family: 'Karla', sans-serif;
+}
+/*Paragraph styles*/
+p {
+    /*ASetting the font size to 20px*/
+    font-size: 20px;
+    /*Giving it the font family of 'Karla'*/
+    font-family: 'Karla', sans-serif;
+}
+/*Making an id with the name "navbar"*/
+#navbar {
+    /*Setting the display to flex*/
+    display: flex;
+    /*Setting the background color to black*/
+    background-color: black;
+}
+/*h1 tag nested in the navbar id styles*/
+#navbar h1 {
+    /*Setting the width to 50% of the parent element*/
+    width: 50%;
+    /*Aligning the text to center*/
+    text-align: center;
+    /*Removing the margin from all sides*/
+    margin: 0;
+    /*Giving it a top and bottom padding of 20px and removing the left and right padding*/
+    padding: 20px 0;
+}
+/*h1 tag nested in the navbar id on hover style*/
+#navbar h1:hover {
+    /*Setting the background color to aqua*/
+    background-color: aqua;
+}
+/*Anchor styles*/
+a {
+    /*Removing any text decoreation*/
+    text-decoration: none;
+    /*Setting the color of the text to white*/
+    color: white;
+    /*Giving it a top and bottom padding of 20px and left and right padding of 165px*/
+    padding: 20px 165px;
+}
+/*Anchor on hover styles*/
+a:hover {
+    /*Changing the color of the text to black*/
+    color: black;
+}

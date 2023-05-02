@@ -1,0 +1,89 @@
+/*Importing the fonts 'Nabla' and 'Rampart One' from Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Rampart+One&display=swap');
+/*html and body styles*/
+html, body {
+    /*Setting the height to 100%*/
+    height: 100%;
+    /*Removing the vertical scroll*/
+    overflow-y: hidden;
+}
+/*Body styles;*/
+body {
+    /*Giving it a background image*/
+    background-image: url("pexels-dmitry-demidov-3784221.jpg");
+    /*Setting the background size to cover so the image does not stretch*/
+    background-size: cover;
+    /*Setting the background color to black with the opacity of 0.5*/
+    background-color: rgba(0, 0, 0, 0.5);
+    /*Removing the background repeating*/
+    background-repeat: no-repeat;
+    /*Setting the blend mode to overlay so the color overlays the image*/
+    background-blend-mode: overlay;
+    /*Setting the display to grid*/
+    display: grid;
+    /*Setting the place content to center so the content is located at the center of the grid*/
+    place-content: center;
+
+}
+/*Header styles*/
+header {
+    /*Setting the header starting point from column 1 on the grid*/
+    grid-column-start: 1;
+    /*Setting the header ending point to column 4 on the grid*/
+    grid-column-end: 4;
+    /*Aligning the text to center*/
+    text-align: center;
+    /*Setting the background color to black*/
+    background-color: black;
+    /*Setting the border to 2px with a style of solid and the color of orangered*/
+    border: 5px solid orangered;
+    /*Setting the border radius to 5px*/
+    border-radius: 5px;
+}
+/*h1 styles*/
+h1 {
+    /*Giving it a font family of 'Nabla'*/
+    font-family: 'Nabla', cursive;
+}
+/*Div styles*/
+div {
+    /*Setting the display to grid*/
+    display: grid;
+    /*Making three column on the grid*/
+    grid-template-columns: 1fr 1fr 1fr;
+    /*Setting the gap between the items to 20px*/
+    gap: 20px;
+}
+/*Button styles*/
+button {
+    /*Setting the width to 500px*/
+    width: 500px;
+    /*Setting the height to 200px*/
+    height: 200px;
+    /*Setting the border to 5px with a style of solid and a color of orangered*/
+    border: 5px solid orangered;
+    /*Setting the border radius to 10px*/
+    border-radius: 10px;
+    /*Giving it the font family of 'Rampart One'*/
+    font-family: 'Rampart One', cursive;
+    /*Setting the background color to black*/
+    background-color: black;
+    /*Setting the font size to 35px*/
+    font-size: 35px;
+    /*Changing the color of the text to white*/
+    color: white;
+}
+/*Button styles on hover*/
+button:hover {
+    /*Changing the background color to orangered*/
+    background-color: orangered;
+    /*Changing the cursor to pointer*/
+    cursor: pointer;
+    /*Changing the font family to 'Nabla'*/
+    font-family: 'Nabla', cursive;
+    /*Changing the border to 5px with a style of double and a color of yellow*/
+    border: 5px double yellow;
+    /*Changing the font size to 38px*/
+    font-size: 38px;
+
+}

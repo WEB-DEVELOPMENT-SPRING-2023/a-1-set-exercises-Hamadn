@@ -1,0 +1,158 @@
+/*Targeting the body tag */
+body {
+    /*Giving it a font family of Arial*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*Setting the font weight to 400*/
+    font-weight: 400;
+    /*Removing the margin*/
+    margin: 0;
+}
+/*Targeting the header tag*/
+header {
+    /*Setting the background color to the hex value of #17012b*/
+    background-color: #17072b;
+    /*Aligning the text to the center*/
+    text-align: center;
+    /*Setting the color of the text to a hex value of #ffffff(white)*/
+    color: #ffffff;
+    /*Setting the font size to 3 times the default value of html font size(which is 16px)*/
+    font-size: 3rem;
+}
+/*Targeting the section tag*/
+section {
+    /*Setting the background color to the hex value of #172d67*/
+    background-color: #172d67;
+    /*Setting the top margin to 15px*/
+    margin-top: 15px;
+    /*Setting the width to 35% of the parent element*/
+    width: 35%;
+}
+/*Targeting the footer tag*/
+footer {
+    /*Setting the background color to the hex value of #8c15e9*/
+    background-color: #8c15e9;
+    /*Setting the height to 60px*/
+    height: 60px;
+}
+/*Targeting the div tag*/
+div {
+    /*Changing the display to flex*/
+    display: flex;
+    /*Justifying the content to have space between them*/
+    justify-content: space-between;
+    /*Making the flex content wrap when the screen size reduces*/
+    flex-wrap: wrap;
+}
+/*Targeting the h1 tag*/
+h1 {
+    /*Giving it the font family of Tahoma*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*Setting the font weight to 700*/
+    font-weight: 700;
+    /*Setting the top padding to 20px*/
+    padding-top: 20px;
+    /*Giving it a tex decoration of underline*/
+    text-decoration: underline;
+    /*Removing the margin*/
+    margin: 0;
+    /*Increasing the space between the text and the underline to 15px*/
+    text-underline-offset: 15px;
+}
+/*Targeting thr h2 tag nested in the footer tag*/
+footer h2 {
+    /*Aligning the text ot the center*/
+    text-align: center;
+    /*Setting the color of the text ot the hex value of #ffffff(white)*/
+    color: #ffffff;
+    /*Setting the font size to 2 times the size of the current font*/
+    font-size: 2em;
+    /*Giving it a padding of 10px from all sides*/
+    padding: 10px;
+}
+/*Targeting the nav tag*/
+nav {
+    /*Changing the display to flex*/
+    display: flex;
+    /*Aligning items to the center on the cross axis*/
+    align-items: center;
+    /*Aligning the content to the center on the main axis*/
+    justify-content: center;
+}
+/*Targeting the li tag nested inside the nav and ul tag*/
+nav ul li{
+    /*Removing the listing style*/
+    list-style-type: none;
+    /*Setting the display to inline*/
+    display: inline;
+    /*Giving it a right and left padding of 25px*/
+    padding-right: 25px;
+    padding-left: 25px;
+}
+/*Targeting the main tag*/
+main {
+    /*Giving it a left margin of 2% of the parent element*/
+    margin-left: 2%;
+    /*Setting the width to 60% of the parent element*/
+    width: 60%;
+}
+/*Targeting the img tag*/
+img {
+    /*Setting the height to 600px*/
+    height: 600px;
+    /*Setting the width to 100% of the parent element*/
+    width: 100%;
+}
+/*Targeting the p tag*/
+p {
+    /*Changing the font size to 2.5 times the size of current font size*/
+    font-size: 2.5em;
+}
+/*Targeting the h1 tag nested in the main tag*/
+main h1{ 
+    /*Changing the font size to 4 times the size of the current font size*/
+    font-size: 4em;
+}
+/*Targeting the img tag nested inside the section tag*/
+section img {
+    /*Setting the width and height to 350px*/
+    width: 350px;
+    height: 350px;
+}
+/*Targeting the h1 tag nested in the section tag*/
+section h1 {
+    /*Changing the font size to 4 times the size of the default font size(16px)*/
+    font-size: 4rem;
+    /*Changing the color of the text to the hex value of #ffffff(white)*/
+    color: #ffffff;
+    /*Giving it a padding of 50px from all sides*/
+    padding: 50px;
+}
+/*Targeting the h2 tag nested in the section tag*/
+section h2 {
+    /*Setting the font size to 2 times the size of the current font size*/
+    font-size: 2em;
+    /*Setting the color of the text to the hex value of #ffffff(white)*/
+    color: #ffffff;
+    /*Giving it a padding of 50px from all sides*/
+    padding-left: 50px;
+    /*Increasing the spacing between text and underline to 15px*/
+    text-underline-offset: 15px;
+}
+/*Making a class named "image1_padding"*/
+.image1_padding {
+    /*Giving it a left padding of 50px and a right padding of 5px*/
+    padding-left: 50px;
+    padding-right: 5px;
+    /*Giving it a top margin of 70px and a bottom margin of 60px*/
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+/*Making a class named "image2_padding"*/
+.image2_padding {
+    /*Giving it a right padding of 50px and a left padding of 5px*/
+    padding-right: 50px;
+    padding-left: 5px;
+    /*Giving it a top margin of 70px and a bottom margin of 60px*/
+    margin-top: 70px;
+    margin-bottom: 60px;
+}

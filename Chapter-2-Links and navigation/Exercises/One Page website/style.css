@@ -1,0 +1,191 @@
+/*importing a font family from google fonts to use in the webpage*/
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Poiret+One&family=Raleway:wght@200&display=swap");
+/*Targating html element tag*/
+html {
+  /*amount of space left when the page scrolls to a specific area on the page when clicking the nav links that redirects to the different areas on webpage*/
+  scroll-padding-top: 95px;
+  /*Setting the scroll behaviour of the page to smooth*/
+  scroll-behavior: smooth;
+}
+/*Targeting the body tag*/
+body {
+  /*Setting the margin of body to 0*/
+  margin: 0;
+  /*Giving the body a padding of 60px so the header is not covered by the navbar*/
+  padding-top: 60px;
+}
+/*Targeting the a tag*/
+a {
+  /*Removing the text underline and any decoration of links*/
+  text-decoration: none;
+  /*Setting the color to black*/
+  color: black;
+  /*Setting the font size to 2% of the width of view port*/
+  font-size: 2vw;
+  /*Giving it padding of 20px from all sides*/
+  padding: 20px;
+}
+/*Targeting the li tag*/
+li {
+  /*Removing the style of listing such as bulletpoints or dashes*/
+  list-style-type: none;
+  /*Changing the display to inline*/
+  display: inline;
+}
+/*Targeting the ul tag*/
+ul {
+  /*Aligning the text to center*/
+  text-align: center;
+  /*Removing the margin*/
+  margin: 0;
+  /*Giving it a padding of 15px*/
+  padding: 15px;
+  /*Hidding the overflow of content*/
+  overflow: hidden;
+}
+/*Targeting the nav tag*/
+nav {
+  /*Setting the background color to lightgrey*/
+  background-color: lightgray;
+  /*Setting the width to 100%*/
+  width: 100%;
+  /*Changing the position to fixed so it moves with scroll*/
+  position: fixed;
+  /*Setting the top to 0*/
+  top: 0;
+  /*Giving it the font family of 'Aboreto'*/
+  font-family: "Aboreto", cursive;
+}
+/*Targeting the a tag when it is hovered by the cursor*/
+a:hover {
+  /*Changing the background color to hex value of #690000*/
+  background-color: #690000;
+  /*Changing the color of text to white*/
+  color: white;
+}
+/*Targeting the header tag*/
+header {
+  /*Aligning the text to center*/
+  text-align: center;
+  /*Changing the font size to 2% of the width of view port*/
+  font-size: 2vw;
+  /*Setting the color of text to the hex value of #690000*/
+  color: #690000;
+  /*Giving it the font family of 'Aboreto'*/
+  font-family: "Aboreto", cursive;
+}
+/*Targeting the hr tag*/
+hr {
+  /*Setting the width of the line to 50% of the width of view port*/
+  width: 50vw;
+}
+/*Making a class with the name of "plot"*/
+.plot {
+  /*Aligning the text to left*/
+  text-align: left;
+  /*Changing the font size to 2% of the width of view port*/
+  font-size: 2vw;
+  /*Setting the border to 2px with style of solid and color of black*/
+  border: 2px solid black;
+  /*Removing the top margin*/
+  margin-top: 0;
+  /*Setting the margin on the right to 15px*/
+  margin-right: 15px;
+  /*Setting the margin on the left to 15px*/
+  margin-left: 15px;
+  /*Setting the bottom margin to 20px*/
+  margin-bottom: 20px;
+}
+/*Targeting the h1 tag*/
+h1 {
+  /*Removing the bottom margin*/
+  margin-bottom: 0;
+}
+/*Targeting the h2 tag*/
+h2 {
+  /*Aligning the text to left*/
+  text-align: left;
+  /*Changing the font size to 2% of the width of view port*/
+  font-size: 2vw;
+  /*Removing the margin*/
+  margin: 0;
+  /*Giving it the font family of "Poiret One"*/
+  font-family: "Poiret One", cursive;
+}
+/*Targeting the button tag*/
+button {
+  /*Setting the border radius to 10px*/
+  border-radius: 10px;
+  /*Setting the background color to the hex value of #fc518*/
+  background-color: #f5c518;
+}
+/*Targeting the id named "imdb" when the cursor hovers over it*/
+#imdb:hover {
+  /*Setting the background color to transparent*/
+  background-color: transparent;
+  /*Setting the color of the text to black*/
+  color: black;
+}
+/*Targeting the id named "imdb"*/
+#imdb {
+  /*Removing the padding*/
+  padding: 0;
+}
+/*Making a class named "chr"*/
+.chr {
+  /*Setting the color to the hex value of #850000*/
+  color: #850000;
+  /*Giving it a font family of "Aboreto"*/
+  font-family: "Aboreto", cursive;
+  /*Giving it a padding of 10px from all four sides*/
+  padding: 10px;
+  /*Setting the font weight to lighter*/
+  font-weight: lighter;
+}
+/*Making a class named info*/
+.info {
+  /*Setting the font size to 2% of the width of view port*/
+  font-size: 2vw;
+}
+/*Making a class named "bord"*/
+.bord {
+  /*Setting the borde to 2px with the style of solid and a color of black*/
+  border: 2px solid black;
+  /*Setting the width to 50% of the parent element*/
+  width: 50%;
+  /*Giving it a margin of 10px from all sides*/
+  margin: 10px;
+}
+/*Making a class named "line"*/
+.line {
+  /*Setting the display to flex*/
+  display: flex;
+  /*Justify the content to have space between them*/
+  justify-content: space-between;
+}
+/*Making a class named "over"*/
+.over {
+  /*Setting the bakground color to lightgray*/
+  background-color: lightgray;
+  /*Removing the margin*/
+  margin: 0;
+  /*giving it a padding of 15px from all four sides*/
+  padding: 15px;
+  /*Setting the bottom border to 2px with a style of solid and a color of black*/
+  border-bottom: 2px solid black;
+}
+/*Making a class named "para"*/
+.para {
+  /*Giving it a padding right and left of 20px*/
+  padding-left: 20px;
+  padding-right: 20px;
+  /*Changing the font size to 1.5% of the width of view port*/
+  font-size: 1.5vw;
+  /*Giving it the font family of "Raleway"*/
+  font-family: "Raleway", sans-serif;
+  /*Changing the spacing between the lines to 1.5 units*/
+  line-height: 1.5;
+  /*Setting the top margin to 10px and bottom margin to 20px*/
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

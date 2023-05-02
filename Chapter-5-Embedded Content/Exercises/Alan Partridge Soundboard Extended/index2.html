@@ -1,0 +1,39 @@
+<!--Boilerplate for html files to let the browser know that it is an html file-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Title tag to give the title to the webpage which is displayed in the browser tab-->
+        <title>Alan Partridge's Soundboard Extended</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Linking css file for the styling of the webpage-->
+        <link href="style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/34cc1d3744.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--textarea tag with span of 20 rows and 40 columns and an id of name "text" to display an area where the user can write text-->
+        <textarea rows="20" cols="40" id="text"></textarea>
+        <!--button tag with an id of name "tts" to display a button on the webpage-->
+        <button id="tts">Say It</button>
+        <!--div tag to represent a division in the webpage-->
+        <div>
+            <!--header tag with h1 nested in it to display the heading of the webpage-->
+        <header>
+            <h1>Alan Partridge's Soundboard</h1>
+        </header>
+        <!--button tag to display a button which executes certain functions when they are clicked-->
+        <button onclick="sound10.play()">10<br>Bruh</button>
+        <button onclick="sound11.play()">11<br>Okay</button>
+        <button onclick="sound12.play()">12<br>Ooooooo</button>
+        <button onclick="sound13.play()">13<br>Don't Do The Voice</button>
+        <button onclick="sound14.play()">14<br>Okay - Let's Go</button>
+        <button onclick="sound15.play()">15<br>Welcome To Bad Tag</button>
+        <button onclick="sound16.play()">16<br>Drop The Weapon</button>
+        <button onclick="sound17.play()">17<br>Oh - This Is Bad</button>
+        </div>
+        <!--buttoon tag which wwhen clicked moves to previous page-->
+        <button class="arrow" id="left" onclick="location.href = 'index.html'; "><i class="fa-solid fa-arrow-left-long"></i></button>
+        <!--Linking the javascript file for the function of the website-->
+        <script src="index.js"></script>
+    </body>
+</html>
